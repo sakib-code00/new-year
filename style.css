@@ -56,7 +56,6 @@ body{
 #offer{
     width:640px;
     margin: 50px auto;
-    background-color: aqua;
 }
 #offer h1{
     color: #F00;
@@ -93,7 +92,7 @@ body{
 #welcome{
     width: 1050px;
     height: 600px;
-    margin: 30px auto;
+    margin: 0 auto;
     border-radius: 16px;
     background-image: url(images/Vectorrr.png);
     background-size: 100%;
@@ -139,3 +138,60 @@ body{
 }
 
 /* address section*/
+ #address{
+    width: 1050px;
+    background-color: aqua;
+    border-radius: 16px;
+    height: 385px;
+    margin: 0 auto;
+ }
+
+
+ /*footer section*/
+ #footer{
+    width:100%;
+    background-color: #070211;
+    text-align: center;
+ }
+ .footer-top{
+    display:flex;
+    justify-content: space-between;
+ }
+ .footer-text{
+    width: 280px;
+    text-align: left;
+    margin-left: 100px;
+ }
+ .footer-text p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+ }
+.footer-main img{
+    width:52px;
+}
+ .footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+ }
+ .footer-bottom p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+ }
+ hr{
+    width: 820px;
+    height: 1px;
+    color: rgba(255, 255, 255, 0.15);
+    opacity: 0.25;
+ }
+ a{
+    text-decoration: none;
+ }
