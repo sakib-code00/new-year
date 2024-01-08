@@ -321,6 +321,7 @@ span{
  }
 .footer-main img{
     width:52px;
+    margin-left: 10px;
 }
  .footer-bottom{
     display: flex;
