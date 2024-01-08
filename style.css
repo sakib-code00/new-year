@@ -145,7 +145,95 @@ body{
     height: 385px;
     margin: 0 auto;
  }
+ /* gellery section */
+ #gellery{
+    background-color: aqua;
+    width: 1050px;
+    border-radius: 16px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+ }
+ .gellery-text h5{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+ }
+ .gellery-text h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
 
+ }
+ .gellery-text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0 300px 0 0;
+ }
+ .gellery-photo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+ }
+ .gellery-photo img{
+    width: 300px;
+    height: 325px;
+ }
+
+
+ /* mail section */
+
+ #message{
+    background: rgba(255, 0, 0, 0.05);
+    width: 1050px;
+    border-radius: 16px;
+    margin: 0 auto;
+    text-align: center;
+ }
+ #message h1{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+ }
+ #message p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0 200px 0 200px;
+ }
+ #message button{
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    color: #fff;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 12px 42px;
+ }
 
  /*footer section*/
  #footer{
@@ -195,3 +283,5 @@ body{
  a{
     text-decoration: none;
  }
+
+ /*
