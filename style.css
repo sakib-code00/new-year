@@ -6,12 +6,14 @@ font-family: 'Merriweather', serif;
 body{
     margin:0;
     padding: 0;
-    background-color: #fff;
+    background-color: #FFF
+}
+span{
+   color: #F00;
 }
 .header{
     width: 1050px;
-    height: 600px;
-    margin: 30px auto;
+    margin: 50px auto;
     border-radius: 16px;
     background-image: url(images/Banner\ Image.png);
     background-size: 100%;
@@ -91,8 +93,7 @@ body{
 /* welcome section*/
 #welcome{
     width: 1050px;
-    height: 600px;
-    margin: 0 auto;
+    margin: 50px auto;
     border-radius: 16px;
     background-image: url(images/Vectorrr.png);
     background-size: 100%;
@@ -102,9 +103,7 @@ body{
 .welcome-content{
     display: flex;
     width: 1050px;
-    align-content: center;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    background-size: 100%;
     border-radius: 16px;
     justify-content: space-around;
 }
@@ -116,6 +115,8 @@ body{
     font-weight: 900;
     line-height: 88px; /* 137.5% */
     letter-spacing: 7.04px;
+    text-align: left;
+    margin-left: 50px;
 }
 .welcome-text p{
     color: rgba(255, 255, 255, 0.80);
@@ -123,31 +124,58 @@ body{
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 166.667% */
+    line-height: 30px;
+    margin-left: 50px;
 }
 .welcome-text button{
-    color: #FFF;
-    background: none;
-    text-align: center;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    border: none;
+   background:none;
+   border: none;
+   color: #fff;
+   font-family: Inter;
+   font-size: 20px;
+   font-weight: 700;
+   margin-top: 40px;
+   border-radius: 8px;
+   padding: 12px 18px;
+   margin-left: 150px;
+   cursor: pointer;
 }
 
 /* address section*/
  #address{
     width: 1050px;
-    background-color: aqua;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     border-radius: 16px;
     height: 385px;
-    margin: 0 auto;
+    margin: 50px auto;
+    text-align: center;
  }
- /* gellery section */
+ .address-content h3{
+   line-height: 35px;
+   color: #070211;
+   font-family: Inter;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 600;
+   text-transform: capitalize;
+   padding-top: 80px;
+ }
+ .address-content button{
+    background: #F00;
+    border: none;
+    color: #fff;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 40px;
+    border-radius: 8px;
+    padding: 12px 18px;
+    cursor: pointer;
+ }
+
+
+ /* gallery section */
  #gellery{
-    background-color: aqua;
     width: 1050px;
     border-radius: 16px;
     margin: 0 auto;
@@ -186,12 +214,12 @@ body{
  }
  .gellery-photo{
     display:flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     flex-wrap: wrap;
     row-gap: 0px;
     column-gap: 30px;
-
+    padding-bottom: 20px;
  }
  .gellery-photo img{
     width: 300px;
@@ -212,8 +240,11 @@ body{
     background: rgba(255, 0, 0, 0.05);
     width: 1050px;
     border-radius: 16px;
-    margin: 0 auto;
+    margin: 50px auto;
     text-align: center;
+ }
+ #message img{
+   padding-top: 30px;
  }
  #message h1{
     color: #070211;
@@ -233,7 +264,16 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    margin: 0 200px 0 200px;
+    margin: 0 200px 20px 200px;
+ }
+ #message input{
+   width: 648px;
+   height: 30px;
+   border-radius: 50px 0px 0px 50px;
+   background: #FFF;
+   font-family: Inter;
+   padding: 13px 42px;
+   border: none;
  }
  #message button{
     border-radius: 0px 50px 50px 0px;
@@ -246,6 +286,10 @@ body{
     font-weight: 700;
     line-height: normal;
     padding: 12px 42px;
+    cursor: pointer;
+ }
+ #message form{
+   padding-bottom: 30px;
  }
 
  /*footer section*/
@@ -280,8 +324,10 @@ body{
 }
  .footer-bottom{
     display: flex;
-    justify-content: space-between;
-    margin-left: 100px;
+    justify-content: space-around;
+    text-align: left;
+    margin-left: 0px;
+    padding-bottom: 50px;
  }
  .footer-bottom p{
     color: #FFF;
